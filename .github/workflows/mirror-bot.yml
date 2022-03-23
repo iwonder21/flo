@@ -51,7 +51,7 @@ jobs:
        - name: Loop workflow
          continue-on-error: true
          run: |
-              git clone https://github.com/iwonder21/mirror_wf_old.git loop
+              git clone https://github.com/iwonder21/flo.git loop
               cd loop
               echo "1" >> loop.txt
               git add loop.txt
